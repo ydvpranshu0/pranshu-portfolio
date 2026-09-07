@@ -1,0 +1,35 @@
+/* ==========================================
+   GSAP / SCROLL ANIMATIONS
+   Shared reveal and floating motion styles.
+   ========================================== */
+
+.reveal {
+  opacity: 1;
+  transform: none;
+}
+
+html.motion-ready .reveal {
+  opacity: 0;
+  transform: translateY(25px);
+}
+
+html.motion-ready .reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+
+.float-slow {
+  animation: floatSlow 8s ease-in-out infinite alternate;
+}
+
+@keyframes floatSlow {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-14px);
+  }
+}

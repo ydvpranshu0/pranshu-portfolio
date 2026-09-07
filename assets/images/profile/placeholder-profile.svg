@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#151515"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ff8a00"/>
+      <stop offset="100%" stop-color="#ff5c00"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#bg)"/>
+  <circle cx="250" cy="200" r="110" fill="url(#accent)" opacity="0.42"/>
+  <circle cx="250" cy="170" r="78" fill="#b5b5b5" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.2"/>
+  <path d="M165 370c26-52 58-78 85-78s59 26 85 78" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="18" stroke-linecap="round"/>
+  <text x="250" y="448" text-anchor="middle" fill="#ffffff" font-size="26" font-family="Arial, sans-serif" opacity="0.72">Profile Placeholder</text>
+</svg>
