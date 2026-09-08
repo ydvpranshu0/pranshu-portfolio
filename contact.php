@@ -27,7 +27,7 @@ require __DIR__ . '/includes/config.php';
           <div class="collapse navbar-collapse" id="mainNav">
             <ul class="navbar-nav ms-auto align-items-lg-center">
               <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
               <li class="nav-item"><a class="nav-link" href="index.html#skills">Skills</a></li>
               <li class="nav-item"><a class="nav-link" href="index.html#experience">Experience</a></li>
               <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>

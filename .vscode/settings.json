@@ -1,0 +1,8 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "/^php -r \"require 'includes/config\\.php'; `\\$pdo = getDbConnection\\(\\); `\\$row = `\\$pdo->query\\('SELECT password_hash FROM admin_users LIMIT 1'\\)->fetch\\(\\); echo 'HASH_LENGTH=' \\. strlen\\(`\\$row\\['password_hash'\\]\\) \\. PHP_EOL; if \\(password_verify\\('e22c5be8c6b49887f0fced3a', `\\$row\\['password_hash'\\]\\)\\) \\{ echo 'PASSWORD_VERIFY=OK' \\. PHP_EOL; \\} else \\{ echo 'PASSWORD_VERIFY=FAILED' \\. PHP_EOL; \\}\"$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}

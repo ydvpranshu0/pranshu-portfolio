@@ -18,7 +18,7 @@ $homeUrl = portfolioUrl('index.html');
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav ms-auto align-items-lg-center">
           <li class="nav-item"><a class="nav-link" href="<?php echo htmlspecialchars($homeUrl . '#home', ENT_QUOTES, 'UTF-8'); ?>">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="<?php echo htmlspecialchars($homeUrl . '#about', ENT_QUOTES, 'UTF-8'); ?>">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="<?php echo htmlspecialchars(portfolioUrl('about.html'), ENT_QUOTES, 'UTF-8'); ?>">About</a></li>
           <li class="nav-item"><a class="nav-link" href="<?php echo htmlspecialchars($homeUrl . '#skills', ENT_QUOTES, 'UTF-8'); ?>">Skills</a></li>
           <li class="nav-item"><a class="nav-link" href="<?php echo htmlspecialchars($homeUrl . '#experience', ENT_QUOTES, 'UTF-8'); ?>">Experience</a></li>
           <li class="nav-item"><a class="nav-link" href="<?php echo htmlspecialchars(portfolioUrl('projects.html'), ENT_QUOTES, 'UTF-8'); ?>">Projects</a></li>
