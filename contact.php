@@ -50,7 +50,6 @@ require __DIR__ . '/includes/config.php';
               </div>
               <div class="contact-details reveal">
                 <p><strong>Email:</strong> <a href="mailto:pranshu.rama@gmail.com">pranshu.rama@gmail.com</a></p>
-                <p><strong>Phone:</strong> <a href="tel:+917991357578">+91 7991357578</a></p>
                 <p><strong>Location:</strong> Kanpur, Uttar Pradesh, India</p>
                 <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/pranshu0" target="_blank" rel="noopener">linkedin.com/in/pranshu0</a></p>
               </div>

@@ -16,7 +16,6 @@ $assetBaseUrl = portfolioUrl('assets');
     </div>
     <div class="footer-links">
       <a href="mailto:pranshu.rama@gmail.com">Email</a>
-      <a href="tel:+917991357578">Phone</a>
       <a href="https://linkedin.com/in/pranshu0" target="_blank" rel="noopener">LinkedIn</a>
     </div>
   </div>

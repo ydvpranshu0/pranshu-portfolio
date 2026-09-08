@@ -7,7 +7,6 @@ const portfolioData = {
   name: "Pranshu Yadav",
   title: "Full-Stack Web Developer | WordPress Specialist | Web Developer",
   email: "pranshu.rama@gmail.com",
-  phone: "+91 7991357578",
   location: "Kanpur, Uttar Pradesh, India",
   linkedin: "https://linkedin.com/in/pranshu0",
 };
@@ -60,8 +59,12 @@ document.addEventListener("DOMContentLoaded", () => {
     document
       .querySelectorAll("a, button, .project-card, .service-card")
       .forEach((element) => {
-        element.addEventListener("mouseenter", () => cursor?.classList.add("active"));
-        element.addEventListener("mouseleave", () => cursor?.classList.remove("active"));
+        element.addEventListener("mouseenter", () =>
+          cursor?.classList.add("active"),
+        );
+        element.addEventListener("mouseleave", () =>
+          cursor?.classList.remove("active"),
+        );
       });
   }
 
